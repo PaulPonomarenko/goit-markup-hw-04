@@ -139,14 +139,23 @@ header .container {
 }
 
 .header-contact {
+  display: flex;
+  width: 100%;
+  height: 100%;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-link-color);
+  justify-content: center;
+  align-items: center;
 }
 .header-contact:hover,
 .header-contact:focus {
   color: var(--accent-color);
+}
+.contact-icons {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /*------------Main------------*/
@@ -191,14 +200,29 @@ header .container {
 .section-feature {
   background-color: var(--main-white-color);
 }
+.feature-icons {
+  display: flex;
+  margin-bottom: 30px;
+}
+.feature-icons > li:not(:last-child) {
+  margin-right: 30px;
+}
+.icons-elements {
+  padding: 25px 100px;
+  background: var(--white-bg-color);
+  border-radius: 4px;
+}
+
 .section-list {
   display: flex;
-  justify-content: stretch;
 }
 .section-items {
   min-width: 270px;
 }
-
+.feature-icons > li {
+  min-width: 270px;
+  max-height: 120px;
+}
 .section-list > li:not(:last-child) {
   margin-right: 30px;
 }
