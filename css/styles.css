@@ -334,10 +334,15 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-.team-soc-link:hover {
+.team-soc-link:hover,
+.team-soc-link:focus {
   background-color: var(--accent-color);
 }
+
 .team-soc-link:hover .team-soc-icons {
+  fill: var(--main-white-color);
+}
+.team-soc-link:focus .team-soc-icons {
   fill: var(--main-white-color);
 }
 
@@ -370,10 +375,14 @@ header .container {
 .company-items {
   fill: var(--main-icons-color);
 }
-.company-icons:hover {
+.company-icons:hover,
+.company-icons:focus {
   border: 1px solid var(--accent-color);
 }
-.company-icons:hover .company-items {
+.company-link:hover .company-items {
+  fill: var(--accent-color);
+}
+.company-link:focus .company-items {
   fill: var(--accent-color);
 }
 .company-icons:not(:last-child) {
@@ -459,7 +468,8 @@ header .container {
 .footer-soc-icons {
   fill: var(--main-white-color);
 }
-.footer-soc-link:hover {
+.footer-soc-link:hover,
+.footer-soc-link:focus {
   background-color: var(--accent-color);
 }
 
