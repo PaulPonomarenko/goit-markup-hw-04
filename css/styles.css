@@ -165,6 +165,15 @@ header .container {
   background-color: var(--main-bg-color);
   text-align: center;
   padding: 200px 0;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/background\ .jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  background-position: center;
+  margin: auto;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .title {
@@ -190,6 +199,7 @@ header .container {
   background-color: var(--accent-color);
   border-radius: 4px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:hover,
