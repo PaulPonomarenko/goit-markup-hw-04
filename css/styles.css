@@ -16,6 +16,7 @@
   --main-p-color: #757575;
   --main-white-color: #ffffff;
   --main-border-color: #eeeeee;
+  --main-icons-color: #afb1b8;
 }
 
 .container {
@@ -305,6 +306,39 @@ header .container {
 .our-team {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.team-soc-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--main-white-color);
+  justify-content: center;
+  align-items: center;
+}
+.team-soc-link:hover {
+  background-color: var(--accent-color);
+}
+.team-soc-link:hover .team-soc-icons {
+  fill: var(--main-white-color);
+}
+
+.social-icons {
+  height: 44px;
+  width: 44px;
+}
+.social-icons:not(:last-child) {
+  margin-right: 10px;
+}
+.team-soc-icons {
+  fill: var(--main-icons-color);
 }
 
 /*--------------Footer----------------*/
