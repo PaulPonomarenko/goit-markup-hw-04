@@ -258,7 +258,8 @@ header .container {
 }
 
 .title-box,
-.title-team {
+.title-team,
+.title-company {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -340,7 +341,26 @@ header .container {
 .team-soc-icons {
   fill: var(--main-icons-color);
 }
-
+/* -------------Company--------------- */
+.section-company {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.company-list {
+  display: flex;
+  justify-content: center;
+}
+.company-icons {
+  width: 170px;
+  height: 92px;
+}
+.company-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
 /*--------------Footer----------------*/
 .footer-cont {
   display: block;
